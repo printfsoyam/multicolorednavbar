@@ -1,0 +1,53 @@
+:root {
+    --pcolor: rgb(238, 255, 0);
+    --seccolor: rgb(2, 0, 0);
+    --tcolor: rgb(255, 0, 208);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--pcolor);
+}
+
+.navbar {
+    background-color: var(--seccolor);
+    height: 35px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: right;
+}
+
+.f1 {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    color: var(--tcolor);
+    text-decoration: none;
+}
+
+.bt {
+    padding: 5px;
+    color: var(--seccolor);
+}
+
+.bt1 {
+    margin: 6px;
+    height: 20px;
+}
+
+.bt2 {
+    margin: 6px;
+    height: 20px;
+}
+
+li a {
+    margin: 5px 20px 5px 20px;
+}
